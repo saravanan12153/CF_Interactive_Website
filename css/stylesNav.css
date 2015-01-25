@@ -1,0 +1,213 @@
+
+body { 
+  background: url('../img/leaf.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  position: relative;
+  top: 65px;
+}
+
+.vid {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.social {
+	display: inline;
+	padding: 15px;
+}
+
+.social span {
+	margin-bottom: 15px;
+}
+
+.anchor {
+	padding-top: 50px;
+}
+
+.carousel-caption {
+	color: black;
+	text-align: left;
+}
+
+.jumbotron {
+	background-color: transparent;
+}
+
+.topContainer {
+	background-color: white;
+	opacity: .9;
+	border-radius: 25px;
+	padding: 25px;
+}
+
+
+.col-md-4 {
+	margin: 5px;
+	width: 32%;
+}
+
+.roundBack {
+	background-color: white;
+	opacity: .9;
+	border-radius: 25px;
+}
+
+
+.navbar-header{
+	float: right;
+}
+.nav li a {
+	color: white;
+	text-transform: uppercase;
+	letter-spacing: 0.05em;
+}
+.jumbotron p {
+	color: #1EBF4C;
+
+}
+
+a {
+	font-size: 20px;
+}
+/*nav {
+	background-color: #2e3133;
+	position: fixed;
+	letter-spacing: 0.1em;
+	width: 100%;
+	height: 65px;
+	z-index: 1;
+}
+
+.nav ul {
+	float: right;
+}
+
+.nav ul li {
+	display: inline;
+	padding: 20px 10px 20px;
+}
+
+.nav ul li a {
+	color: white;
+	text-transform: uppercase;
+	letter-spacing: 0.05em;
+	color: white;
+	transition: color 600ms;
+	-webkit-transition: color 600ms; 
+}
+*/
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+	background-color: #1C8E6C;
+	color: #2e3133;
+}
+a:hover {
+	text-decoration: none;
+}
+
+.myProj {
+	float: left;
+	text-transform: uppercase;
+    font-size: 16px;
+    padding: 13px;
+}
+
+.myProj a{
+	color: #1C8E6C;
+	padding: 15px;
+}
+
+.navbar a:hover {
+  color: #acafb2 ;
+  background-color: #1C8E6C;
+}
+.nav li a:hover {
+  color: #acafb2 ;
+  background-color: #1C8E6C;
+}
+
+#accordion {
+	padding-top: 65px;
+}
+
+.panel-body {
+	background-color: #2e3133;
+	color: white;
+}
+
+.panel-default .panel-heading {
+	background-color: #acafb2; 
+}
+
+.panel-title {
+	color: #1C8E6C;
+}
+
+#name img{
+	padding: 10px;
+}
+
+.img-responsive {
+  display: block;
+  max-width: 100%;
+  height: auto;
+ }
+
+#faq{
+	background-image: url('../img/electronics.jpg');
+/*Add a background image*/
+	/*background-attachment: fixed;*/
+/*Give the background a fixed position does it not scroll when you scroll*/
+	background-size: cover;
+/*Have the background cover the entire div section*/
+	color: #2e3133;
+/*Change the color of the text on top so it is readable, and adjust the padding as needed.*/
+	padding:100px;
+	padding-top: 5px;
+	min-height: 1020px;
+	margin-top: 45px;
+	margin-bottom: 15px;
+	width: 100%
+}
+.whiteText {
+	color: white;
+}
+
+#about h1{
+	color: white;
+}
+
+#about img {
+	display:block;
+    margin:auto;
+}
+
+
+#work h1{
+	color: white;
+}
+
+ #contact{
+	background-image: url('../img/Fern.jpg');
+/*Add a background image*/
+	background-attachment: fixed;
+/*Give the background a fixed position does it not scroll when you scroll*/
+	background-size: cover;
+/*Have the background cover the entire div section*/
+	color: white;
+/*Change the color of the text on top so it is readable, and adjust the padding as needed.*/
+	padding:100px;
+	padding-top: 50px;
+	/*height: 400px;*/
+	min-height: 500px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+#contact span {
+	margin: 15px;
+}
