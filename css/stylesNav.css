@@ -8,6 +8,25 @@ body {
   position: relative;
   top: 65px;
 }
+.learn-more {
+	text-align: left;
+	float: left;
+}
+
+.modal-body {
+	height: 500px;
+}
+
+#modalframe {
+	padding: 10px;
+	width: 100%;
+	height: 100%;
+}
+
+.modal-button {
+	float: right;
+	padding: 15px;
+}
 
 .form-control {
 	width: 80%;
