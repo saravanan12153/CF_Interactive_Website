@@ -4,13 +4,19 @@
     <meta charset="utf-8">
 
     <title>Rachael Sewell</title>
+    <script src="http://code.jquery.com/jquery-2.0.3.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-    <!-- Bootstrap core CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
     <script src="js/jquery.media.js" type="text/javascript"></script>
     <!-- Latest compiled and minified JavaScript -->
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
     <link href="css/stylesNav.css" rel="stylesheet">
+    <script>
+      $(function () {
+      $('#[insert ID your tooltip here]').tooltip();
+      });
+    </script>
   </head>
   <header>
     <nav id="navibar" class="navbar navbar-inverse navbar-fixed-top" role="navigation">
@@ -63,7 +69,7 @@
       <div class="container topContainer">
         <h1>Rachael Sewell</h1>
         <p><strong>Hi! I'm an apiring full-stack web developer.</strong> I've been hanging out in the semiconductor industry for the past 9 years, but web development is where my <span class="glyphicon glyphicon-heart"></span> is. 
-</p>
+        </p>
       </div>
     </div>
 
@@ -126,7 +132,7 @@
         </div>
         <div class="main_text roundBack col-md-4 col-xs-6">
           <h3>My Story</h3>
-          <p>I've spent the last 9 years working in the semiconductor business. Currently I work with touchscreen applications. I get to play with mobile gadgets and create cool scripts to automate common tasks. I really enjoy scripting and devleoping software applications to improve efficiency and automate common tasks. I also really enjoy thinking of and developing fun applications to amuse myself. In my spare time, I love to practice YOGA! I loved it so much, I decided to learn how to teach it too. You can catch my class every Monday in the University District at 8PM. If I had my dreamjob, it would be creating wellness applications to empower people to live their best life. Someday... :)/p>
+          <p>I've spent the last 9 years working in the <a href="#" title="More information"id="item1">semiconductor business</a>. Currently I work with touchscreen applications. I get to play with mobile gadgets and create cool scripts to automate common tasks. I really enjoy scripting and devleoping software applications to improve efficiency and automate common tasks. I also really enjoy thinking of and developing fun applications to amuse myself. In my spare time, I love to practice YOGA! I loved it so much, I decided to learn how to teach it too. You can catch my class every Monday in the University District at 8PM. If I had my dreamjob, it would be creating wellness applications to empower people to live their best life. Someday... :)/p>
         </div>
       </div>
     </div><!--END About Container-->
