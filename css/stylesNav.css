@@ -1,13 +1,28 @@
+.navbar-header {
+	float: right;
+}
+
+.nav li a {
+	color: white;
+	text-transform: uppercase;
+	letter-spacing: 0.05em;
+}
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+	background-color: #1C8E6C;
+	color: #2e3133;
+}
 
 body { 
-  background: url('../img/leaf.jpg') no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  position: relative;
-  top: 65px;
+	background: url('../img/leaf.jpg') no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	position: relative;
+	top: 65px;
 }
+
 .learn-more {
 	text-align: left;
 	float: left;
@@ -60,6 +75,11 @@ body {
 	background-color: transparent;
 }
 
+.jumbotron p {
+	color: #1EBF4C;
+
+}
+
 .topContainer {
 	background-color: white;
 	opacity: .9;
@@ -67,67 +87,21 @@ body {
 	padding: 25px;
 }
 
-
 .col-md-4 {
 	margin: 5px;
 	width: 32%;
 }
 
-.roundBack {
+.text-box {
 	background-color: white;
 	opacity: .9;
 	border-radius: 25px;
 }
 
-
-.navbar-header{
-	float: right;
-}
-.nav li a {
-	color: white;
-	text-transform: uppercase;
-	letter-spacing: 0.05em;
-}
-.jumbotron p {
-	color: #1EBF4C;
-
-}
-
 a {
 	font-size: 20px;
 }
-/*nav {
-	background-color: #2e3133;
-	position: fixed;
-	letter-spacing: 0.1em;
-	width: 100%;
-	height: 65px;
-	z-index: 1;
-}
 
-.nav ul {
-	float: right;
-}
-
-.nav ul li {
-	display: inline;
-	padding: 20px 10px 20px;
-}
-
-.nav ul li a {
-	color: white;
-	text-transform: uppercase;
-	letter-spacing: 0.05em;
-	color: white;
-	transition: color 600ms;
-	-webkit-transition: color 600ms; 
-}
-*/
-
-.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
-	background-color: #1C8E6C;
-	color: #2e3133;
-}
 a:hover {
 	text-decoration: none;
 }
@@ -139,18 +113,9 @@ a:hover {
     padding: 13px;
 }
 
-.myProj a{
+.myProj a {
 	color: #1C8E6C;
 	padding: 15px;
-}
-
-.navbar a:hover {
-  color: #acafb2 ;
-  background-color: #1C8E6C;
-}
-.nav li a:hover {
-  color: #acafb2 ;
-  background-color: #1C8E6C;
 }
 
 #accordion {
@@ -170,7 +135,7 @@ a:hover {
 	color: #1C8E6C;
 }
 
-#name img{
+#name img {
 	padding: 10px;
 }
 
@@ -180,15 +145,15 @@ a:hover {
   height: auto;
  }
 
-#faq{
+#faq {
 	background-image: url('../img/electronics.jpg');
-/*Add a background image*/
+	/*Add a background image*/
 	/*background-attachment: fixed;*/
-/*Give the background a fixed position does it not scroll when you scroll*/
+	/*Give the background a fixed position does it not scroll when you scroll*/
 	background-size: cover;
-/*Have the background cover the entire div section*/
+	/*Have the background cover the entire div section*/
 	color: #2e3133;
-/*Change the color of the text on top so it is readable, and adjust the padding as needed.*/
+	/*Change the color of the text on top so it is readable, and adjust the padding as needed.*/
 	padding:100px;
 	padding-top: 5px;
 	min-height: 1020px;
@@ -196,11 +161,13 @@ a:hover {
 	margin-bottom: 15px;
 	width: 100%
 }
-.whiteText {
+
+/*Give 1 p tag in a section with white text.*/
+.white-text {
 	color: white;
 }
 
-#about h1{
+#about h1 {
 	color: white;
 }
 
@@ -209,20 +176,19 @@ a:hover {
     margin:auto;
 }
 
-
-#work h1{
+#work h1 {
 	color: white;
 }
 
- #contact{
+ #contact {
+ 	/*Add a background image*/
 	background-image: url('../img/Fern.jpg');
-/*Add a background image*/
+	/*Give the background a fixed position*/
 	background-attachment: fixed;
-/*Give the background a fixed position does it not scroll when you scroll*/
 	background-size: cover;
-/*Have the background cover the entire div section*/
+	/*Have the background cover the entire div section*/
 	color: white;
-/*Change the color of the text on top so it is readable, and adjust the padding as needed.*/
+	/*Change the color of the text on top so it is readable, and adjust the padding as needed.*/
 	padding:100px;
 	padding-top: 50px;
 	/*height: 400px;*/
