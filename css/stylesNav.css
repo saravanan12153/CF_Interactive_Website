@@ -9,6 +9,10 @@ body {
   top: 65px;
 }
 
+.form-control {
+	width: 80%;
+}
+
 .vid {
 	display: block;
 	margin-left: auto;
