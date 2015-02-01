@@ -87,12 +87,9 @@ body {
 	padding: 25px;
 }
 
-.col-md-4 {
-	margin: 5px;
-	width: 32%;
-}
-
 .text-box {
+	
+	padding: 10px;
 	background-color: white;
 	opacity: .9;
 	border-radius: 25px;
